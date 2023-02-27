@@ -1,0 +1,9 @@
+@use '@/scss/style.scss' as *;
+
+h1 {
+    width: 100%;
+    text-align: center;
+    color: $secondary-variant;
+    font-size: 4rem;
+    margin: 0 0 1em 0;
+}

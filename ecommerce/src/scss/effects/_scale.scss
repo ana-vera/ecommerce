@@ -1,0 +1,30 @@
+.grow { 
+    transition: all .2s ease-in-out;  
+    :hover { 
+        transform: scale(1.1); 
+        transition: all .1s ease-in-out; 
+        cursor: pointer; 
+        }
+    :nth-child(n){
+        :hover{
+            transform: none;
+        }
+    }
+    }
+
+.shrink{
+    
+    :hover {
+        transform: scale(0.9);
+        transition: all .1s ease-in-out;
+        cursor: pointer; 
+    }
+    :nth-child(n){
+        :hover{
+            transform: none;
+        }
+    }
+}
+
+
+    
